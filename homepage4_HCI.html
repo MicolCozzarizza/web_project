@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HUMAN COMPUTER INTERACTION </title>
+    <meta name="viewport" content="widht=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="stilemicol2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600&family=Poppins:wght@500&display=swap" rel="stylesheet"> 
+    
+    <script src="https://kit.fontawesome.com/6911720c5b.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <base target="_top">
+
+    <script>
+        $(document).ready(function(){
+            $("#panel1").click(function(){
+                $("#hist1").slideToggle("slow");
+            });
+            $("#panel2").click(function(){
+                $("#hist2").slideToggle("slow");
+            });
+            $("#panel3").click(function(){
+                $("#hist3").slideToggle("slow");
+            });
+            $("#panel4").click(function(){
+                $("#hist4").slideToggle("slow");
+            });
+            $("#panel5").click(function(){
+                $("#hist5").slideToggle("slow");
+            });
+        });
+    </script>
+</head>
+
+<body>
+	<section class="header">
+ 		<nav>
+   			<div class="nav-links" id="navLinks">
+      			<i class="fas fa-times" onclick="hideMenu()"></i>
+       				<ul>
+           			<li><a href="">HOME</a></li>
+          			<li><a href="">CHARACTERISTICS</a></li>
+           			<li><a href="">FUTURE TRENDS</a></li>
+				</ul>
+  			</div>
+  			<i class="fas fa-bars" onclick="showMenu()" style="float:right"></i>
+		</nav>
+
+		<div class="intro">
+			<h1>HUMAN COMPUTER INTERACTION</h1>
+			<p>"Making it easy to learn, easy to use"</p>  
+			<br>
+			<a class="intro-btn" href="#concepts">Learn more!</a> 
+		</div>	
+	</section>
+
+<!-----Concepts---->
+<section id="concepts">
+	<h1>HUMAN COMPUTER INTERACTION</h1>
+	<div class="ux-col">
+        <p><b>Human-computer interaction</b> is the study of <b>how people interact with computers</b> and to what extent <b>computers are or are not developed for successful interaction<b> with human beings.</b></p>
+    </div>
+	
+	<section class="part1">
+		<div class="flip-card">
+			<div class="flip-card-inner">
+			  <div class="flip-card-front">
+				<img src="C:/Users/micol/Desktop/HCI/user.jpg" alt="USER" class="flipImg">
+			  </div>
+			  <div class="flip-card-back">
+                <h3>USER</h3> 
+				<div>By "user", we may mean an individual user or a group of users working together. Here, of extremely importance is the study of how people's sensory systems (sight, hearing, touch) process information. Also, different users form different conceptions or mental models about their interactions and have different ways of learning and keeping knowledge. In addition, cultural and national differences play a part.
+                </div>
+			  </div>
+			</div>
+		  </div>
+
+		  <div class="flip-card">
+			<div class="flip-card-inner">
+			    <div class="flip-card-front">
+				    <img src="C:/Users/micol/Desktop/HCI/computer.jpg" alt="COMPUTER" class="flipImg" >
+			    </div>
+			    <div class="flip-card-back">
+                    <h3>COMPUTER</h3> 
+                    <div>When we talk about the computer, we're referring to any technology ranging from desktop computers, to large scale computer systems. For example, if we were discussing the design of a Website, then the Website itself would be referred to as "the computer". Devices such as mobile phones or VCRs can also be considered to be “computers”.
+                    </div>
+                </div>
+			</div>
+		  </div>
+
+          <div class="flip-card">
+			<div class="flip-card-inner">
+			    <div class="flip-card-front">
+				    <img src="C:/Users/micol/Desktop/HCI/interaction.jpg" alt="INTERACTION" class="flipImg">
+			    </div>
+			    <div class="flip-card-back">
+                    <h3>INTERACTION</h3> 
+                    <div>There are obvious differences between humans and machines. In spite of these, HCI attempts to ensure that they both get on with each other and interact successfully.
+                    <br>Thus interaction can be viewed as a form of communication (verbal or not verbal) starting from the user side and aimed at a purpose. A tool to allow the interaction can be defined as an Interface, so the area where you touch or connect, where you interact, an exchange point.
+                    </div>   
+                </div>
+			</div>
+		  </div>
+    </section>
+
+    <div class="iso">
+    HCI is a broad field which overlaps with areas such as user-centered design (UCD), user interface (UI) design and user experience (UX) design. One key all this disciplines have in common is their focus on <b>usability</b>: as defined by the  ISO 9241-11, it is  “the extent to which a product can be used by specified users to achieve specified goals with effectiveness, efficiency and satisfaction in a specified context of use.” In particular, HCI is focuses on understanding and improving the interaction with the technology and the information system starting from the superficial high level of design down to the most fundamental ways in which a system processes and communicates information.
+    </div>
+    <div class="iso" style="float: right; font-style: italic;">
+        <a href="https://en.wikipedia.org/wiki/Human%E2%80%93computer_interaction" target="_blank">To find out more, check wikipedia!</a>
+    </div>
+</section>
+
+
+<section class="history">
+        <h1>HISTORY: THE EVOLUTION OF HCI</h1>
+    <section class="historyWO">
+        <h3>1950 - 1960<button id="panel1">Show/Hide</button></h3>
+            <p id="hist1"> During the 50s and 60s the concept of HCI was not yet taken into account, since the focus was more on the human performance: the accent was on the idea that it was of fundamental importance to exploit the «human» part in order to obtain the most performance improvement possible and to do so the machines acted like support tools.
+            </p>
+
+        <div>
+        <h3>1970<button id="panel2">Show/Hide</button> </h3> 
+            <article  id="hist2">
+                <p>
+                    Starting from the 70s, a new field of interest emerged: ergonomics design. This discipline was mainly intended to obtain improvements in two different contexts: one was based on studies about design applied to everyday life (e.g. chairs), the other one was based on usability of work tools and objects (e.g. machines, computers, etc.). This latter one was then called Man Machine Interaction. 
+                    <br>In such context, human factors and ergonomics were concerned with the "fit" between the user, their equipment, and their environments, taking into account the user's capabilities and limitations to ensure that tasks, functions, information and the environment suit each user.
+                </p>
+            </article>
+        </div>
+        
+        <div>
+        <h3>1980<button id="panel3">Show/Hide</button> </h3> 
+            <article  id="hist3">
+                <p>
+                    Until the late 1970s, the only humans who interacted with computers were information technology professionals and dedicated hobbyists. This changed disruptively with the emergence of personal computing (thanks to machines like Apple Macintosh, IBM PC 5150 and Commodore 64)in the later 1970s. 
+                    <br><br>
+                </p>
+                <p>
+                    Personal computing, including both personal software (productivity applications, such as text editors and spreadsheets, and interactive computer games) and personal computer platforms (operating systems, programming languages, and hardware), made everyone in the world a potential computer user, and highlighted the deficiencies of computers with respect to usability for those who wanted to use computers as tools: as computers were no longer room-sized, expensive tools exclusively built for experts in specialized environments, the need to create human-computer interaction that was also easy and efficient for less experienced users became increasingly vital; hence human-computer interaction started being identified a specific field of studies, related to software & hardware design.
+                </p>
+            </article> 
+        </div>
+
+        <div>
+        <h3>1980 - 1990<button id="panel4">Show/Hide</button> </h3>
+            <article  id="hist4">   
+            <p>
+                The challenge of personal computing arose at a very opportune time. The broad project of cognitive science, which incorporated cognitive psychology, artificial intelligence, linguistics, cognitive anthropology, and the philosophy of mind, had formed at the end of the 1970s. Part of the program of cognitive science was to articulate systematic and scientifically informed applications to be known as "cognitive engineering". Thus, at just the point when personal computing presented the practical need for HCI, cognitive science presented people, concepts, skills, and a vision for addressing such needs through an ambitious synthesis of science and engineering. HCI was one of the first examples of cognitive engineering.
+                <br>
+                <br>
+            </p>
+            
+            <p>
+                Other historically fortuitous developments contributed to the establishment of HCI. Software engineering, mired in unmanageable software complexity in the 1970s (the “software crisis”), was starting to focus on nonfunctional requirements, including usability and maintainability, and on empirical software development processes that relied on iterative prototyping and empirical testing. Computer graphics and information retrieval had emerged in the 1970s, and rapidly came to recognize that interactive systems were the key to progressing beyond early achievements. All these threads of development in computer science pointed to the same conclusion: the way forward for computing involved understanding and better empowering users.
+            </p>
+            </article>
+        </div>
+                
+        <div>
+        <h3>Now<button id="panel5">Show/Hide</button> </h3>
+            <article  id="hist5">                     
+                <p>
+                    While initially concerned with computers, HCI has since expanded rapidly and steadily for three decades to cover almost all forms of information technology design, attracting professionals from many other disciplines, and incorporating diverse concepts, approaches and disciplines such as computer science, cognitive science and human-factors engineering. To a considerable extent, HCI now aggregates a collection of semi-autonomous fields of research and practice in human-centered informatics.
+                </p>   
+            </article>
+        </div>  
+    </section>          
+</section>
+
+<section>
+    <div class="footer"> 
+
+        <section class="cta">
+            <div class="row">
+                           <div class="cta-col">
+                                <p>Do you want to learn the characteristics of HCI?</p>
+                                <div class="button-c">
+                                <a href="" class="hero-btn">EXPLORE THE MAIN CHARACTERISTICS</a>
+                                </div>
+                           </div>
+            </div>
+        </section>
+
+    
+        <div class="backtop">
+                <a class="back-topbtn" href="#" title="Back to the top"><i class="fas fa-arrow-circle-up fa-3x"></i></a>
+            </div>
+        <br>
+
+    <h4 style="text-align:center;">Follow our social accounts:</h4>
+    <div class="icons">
+        <i class="fab fa-facebook fa-2x"></i>
+        <i class="fab fa-linkedin-in fa-2x"></i>
+        <i class="fab fa-twitter fa-2x"></i>
+        <i class="fab fa-instagram fa-2x"></i>
+    </div>
+
+    </div>
+</section>
+
+
+<!-----Javascript for Toggle menu----->
+<script>
+	var navLinks = document.getElementById("navLinks");
+	function showMenu(){
+		navLinks.style.left = "0"; 
+	}
+	function hideMenu(){
+		navLinks.style.left = "-500px";
+	}
+</script>
+
+
+
+</body>
+</html>
+
+
